@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -nostartfiles -Map=ECE571Project.map -O0 --gc-sections -LC:\Users\Adam\AppData\Roaming\CooCox\CoIDE\configuration\ProgramData\ECE571Project -TC:\Users\Adam\AppData\Roaming\CooCox\CoIDE\configuration\ProgramData\ECE571Project/arm-gcc-link.ld -g">
+      <target file="ECE571Project.elf" lastModified="1547c1649c7">
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1547c15d9d9"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1547c15d6b8"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="1547c15db11"/>
+         <source file="..\obj\tm_stm32f4_disco.o" lastModified="1547c15d786"/>
+         <source file="..\obj\tm_stm32f4_adc.o" lastModified="1547c15d74b"/>
+         <source file="..\obj\RTC_LSI.o" lastModified="1547c15d65b"/>
+         <source file="..\obj\misc.o" lastModified="1547c15dbe0"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="1547c15d902"/>
+         <source file="..\obj\syscalls.o" lastModified="1547c15da56"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="1547c15dcfd"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="1547c15d990"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1547c15d7b8"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1547c15d890"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="1547c15d6fa"/>
+         <source file="..\obj\tm_stm32f4_timer_properties.o" lastModified="1547c15dd44"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="1547c15db72"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1547c15da16"/>
+         <source file="..\obj\Printf.o" lastModified="1547c15d7f0"/>
+         <source file="..\obj\tm_stm32f4_rtc.o" lastModified="1547c15dab9"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1547c15dddf"/>
+         <source file="..\obj\tm_stm32f4_low_power.o" lastModified="1547c15dc2c"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="1547c15dc7a"/>
+         <source file="..\obj\BenchADC.o" lastModified="1547c15d940"/>
+         <source file="..\obj\Mathstuff.o" lastModified="1547c15dba2"/>
+         <source file="..\obj\main.o" lastModified="1547c15d834"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\..\..\Dropbox\ece571\firmware\ECE571Project\cmsis_lib\include -I..\..\..\..\..\..\..\Dropbox\ece571\firmware\ECE571Project\cmsis_boot -I..\..\..\..\..\..\..\Dropbox\ece571 -I..\..\..\..\..\..\..\Dropbox\ece571\firmware\ECE571Project\cmsis_lib -I..\..\..\..\..\..\..\Dropbox\ece571\firmware\ECE571Project\cmsis -I..\..\..\..\..\..\..\Dropbox\ece571\firmware -I..\..\..\..\..\..\..\Dropbox -I..\..\..\..\..\..\..\Dropbox\ece571\firmware\ECE571Project">
+      <target file="stm32f4xx_exti.o" lastModified="1547c15db72">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15478e4b498"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1547c15d9d9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1547879e4d8"/>
+      </target>
+      <target file="RTC_LSI.o" lastModified="1547c15d65b">
+         <source file="..\..\..\example\RTC_LSI.c" lastModified="15478e46678"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="1547c15dcfd">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="154787a61d8"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="1547c15dc7a">
+         <source file="..\..\..\..\tm_stm32f4_gpio.c" lastModified="14de39fc7e8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1547c15d7b8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15478b0b418"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1547c15dddf">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15478e4b498"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="1547c15d902">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="154787a90b8"/>
+      </target>
+      <target file="tm_stm32f4_timer_properties.o" lastModified="1547c15dd44">
+         <source file="..\..\..\..\tm_stm32f4_timer_properties.c" lastModified="1488f8e3270"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1547c15da16">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15478b31d48"/>
+      </target>
+      <target file="Printf.o" lastModified="1547c15d7f0">
+         <source file="..\..\..\example\Printf.c" lastModified="15478b40f78"/>
+      </target>
+      <target file="misc.o" lastModified="1547c15dbe0">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15478abb6c0"/>
+      </target>
+      <target file="Mathstuff.o" lastModified="1547c15dba2">
+         <source file="..\..\..\..\Mathstuff.c" lastModified="15478d873e0"/>
+      </target>
+      <target file="BenchADC.o" lastModified="1547c15d940">
+         <source file="..\..\..\..\BenchADC.c" lastModified="15478d5fef8"/>
+      </target>
+      <target file="tm_stm32f4_disco.o" lastModified="1547c15d786">
+         <source file="..\..\..\..\tm_stm32f4_disco.c" lastModified="154791fdd20"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="1547c15db11">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="15478eb7af8"/>
+      </target>
+      <target file="tm_stm32f4_rtc.o" lastModified="1547c15dab9">
+         <source file="..\..\..\..\tm_stm32f4_rtc.c" lastModified="154791fd550"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1547c15d890">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1547879aa40"/>
+      </target>
+      <target file="tm_stm32f4_adc.o" lastModified="1547c15d74b">
+         <source file="..\..\..\..\tm_stm32f4_adc.c" lastModified="14eac554be0"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="1547c15d6fa">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="1547879c598"/>
+      </target>
+      <target file="syscalls.o" lastModified="1547c15da56">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15478b97a30"/>
+      </target>
+      <target file="tm_stm32f4_low_power.o" lastModified="1547c15dc2c">
+         <source file="..\..\..\..\tm_stm32f4_low_power.c" lastModified="14e2696d500"/>
+      </target>
+      <target file="tm_stm32f4_delay.o" lastModified="1547c15d990">
+         <source file="..\..\..\..\tm_stm32f4_delay.c" lastModified="14fdc588180"/>
+      </target>
+      <target file="main.o" lastModified="1547c15d834">
+         <source file="..\..\..\main.c" lastModified="1547974cf38"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1547c15d6b8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="154787abbb0"/>
+      </target>
+   </processor>
+</history>
